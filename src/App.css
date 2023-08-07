@@ -1,0 +1,13 @@
+.container
+{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: repeat(7,500px);
+    gap:10px;
+}
+
+.card img
+{
+    height: 300px;
+    width: 300px;
+}
